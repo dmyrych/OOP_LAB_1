@@ -1,0 +1,6 @@
+/home/dmyrych/Projects/OOP_LAB_1/OOP_LAB_1/bin/Debug/OOP_LAB_1.exe
+/home/dmyrych/Projects/OOP_LAB_1/OOP_LAB_1/bin/Debug/OOP_LAB_1.pdb
+/home/dmyrych/Projects/OOP_LAB_1/OOP_LAB_1/obj/x86/Debug/OOP_LAB_1.csproj.AssemblyReference.cache
+/home/dmyrych/Projects/OOP_LAB_1/OOP_LAB_1/obj/x86/Debug/OOP_LAB_1.csproj.CoreCompileInputs.cache
+/home/dmyrych/Projects/OOP_LAB_1/OOP_LAB_1/obj/x86/Debug/OOP_LAB_1.exe
+/home/dmyrych/Projects/OOP_LAB_1/OOP_LAB_1/obj/x86/Debug/OOP_LAB_1.pdb
