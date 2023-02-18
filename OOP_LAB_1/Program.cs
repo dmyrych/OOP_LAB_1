@@ -8,21 +8,13 @@ namespace OOP_LAB_1
         delegate int randomInt();
         delegate double averageInt(randomInt[] arr);
         private static Random random = new Random();
-        //private static averageInt average(randomInt[] arr)
-        //{
-        //    int x = 0;
-        //    for(int i = 0; i < arr.Length; i++)
-        //    {
-        //        x += arr[i];
-        //    }
-        //    return ;
-        //}
 
+        delegate double simpleAverageInt(int q, int w, int e);
         public static void Main(string[] args)
         {
             //Answer to the task 1 is in the Calculation.cs
-            //Сalculations calculations = new Сalculations();
-            //calculations.DoThings();
+            Сalculations calculations = new Сalculations();
+            calculations.DoThings();
             //End of task 1
             randomInt integer = () =>
             {
@@ -44,6 +36,14 @@ namespace OOP_LAB_1
                 return d/r.Length;
             };
             Console.WriteLine($"Average number is: {av(randarr)}");
+            //End of Task 2
+
+            simpleAverageInt simpleAverage = delegate (int q, int w, int e)
+            {
+                return (q + w + e) / 3;
+            };
+            Console.Write("And the average for the task 3 is: ");
+            Console.WriteLine(simpleAverage(12, 69, 228));
         }
     }
 }
